@@ -1,27 +1,17 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [152] using StatReload
-INFO:     Started server process [154]
+INFO:     Started reloader process [204] using StatReload
+INFO:     Started server process [206]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:54596 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:54612 - "GET /api/projects HTTP/1.1" 200 OK
-INFO:     172.20.0.1:54620 - "GET /api/clients HTTP/1.1" 200 OK
-INFO:     172.20.0.1:54612 - "GET /api/projects HTTP/1.1" 200 OK
-INFO:     172.20.0.1:54620 - "GET /api/clients HTTP/1.1" 200 OK
-INFO:     172.20.0.1:54626 - "GET /api/updates HTTP/1.1" 200 OK
-INFO:     172.20.0.1:54626 - "GET /api/updates HTTP/1.1" 200 OK
-INFO:     172.20.0.1:58932 - "GET /api/clients HTTP/1.1" 200 OK
-INFO:     172.20.0.1:58936 - "GET /api/updates HTTP/1.1" 200 OK
-INFO:     172.20.0.1:58946 - "GET /api/projects HTTP/1.1" 200 OK
-INFO:     172.20.0.1:58936 - "GET /api/projects HTTP/1.1" 200 OK
-INFO:     172.20.0.1:58946 - "GET /api/updates HTTP/1.1" 200 OK
-INFO:     172.20.0.1:58932 - "GET /api/clients HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33606 - "OPTIONS / HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33608 - "OPTIONS / HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33606 - "GET / HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33606 - "GET / HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33608 - "OPTIONS /test HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33606 - "OPTIONS /test HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45512 - "GET /test HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45512 - "GET /test HTTP/1.1" 200 OK
+INFO:     172.20.0.1:55066 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:55068 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     172.20.0.1:55072 - "GET /api/updates HTTP/1.1" 200 OK
+INFO:     172.20.0.1:55068 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     172.20.0.1:55072 - "GET /api/updates HTTP/1.1" 200 OK
+INFO:     172.20.0.1:55080 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:55068 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     172.20.0.1:55080 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:55068 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     172.20.0.1:55080 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:55080 - "GET /api/clients HTTP/1.1" 200 OK
